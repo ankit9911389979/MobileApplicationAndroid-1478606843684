@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MobileApplicationAndroid
+  host: MobileApplicationAndroid
+  disk_quota: 1024M
+  services:
+  - MobileApplicationAndroid-AdvancedMobileAccess
+  - MobileApplicationAndroid-imfpush
+  - MobileApplicationAndroid-cloudantNoSQLDB
